@@ -8,6 +8,7 @@
   border-radius: 20px;
   color: rgba(255, 255, 255, 0.845);
   background-color: black;
+  cursor: pointer;
 }
 
 .MainCard--img {

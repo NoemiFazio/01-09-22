@@ -21,6 +21,7 @@
   border-radius: 20px;
   color: white;
   background-color: black;
+  cursor: pointer;
 }
 .upcomingStyle h3 {
   font-size: 20px !important;
@@ -32,4 +33,5 @@
   padding-bottom: 10px;
   width: 800px;
   overflow-x: scroll;
+  overflow-y: hidden;
 }

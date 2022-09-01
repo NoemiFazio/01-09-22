@@ -34,7 +34,9 @@ const MainSection = ({ modalVisibility }) => {
       <div className="MainSection_right">
         {movieLists.topRated && (
           <TopRatedList
-            cardData={movieLists.topRated}
+            cardData={movieLists.topRated.filter(
+              (movie) => movie.vote_average >= 8.6
+            )}
             nCards={6}
             modalVisibility={modalVisibility}
           />

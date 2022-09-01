@@ -21,7 +21,7 @@
   min-height: 50px;
   max-width: 290px;
   max-height: 50px;
-
+  cursor: pointer;
   padding: 25px;
   border-radius: 20px;
   color: white;

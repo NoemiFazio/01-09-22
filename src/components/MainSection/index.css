@@ -1,0 +1,22 @@
+.MainSection {
+  padding: 100px 40px;
+  display: flex;
+  flex-direction: row;
+  background: rgb(30, 30, 30);
+  background-image: linear-gradient(
+      rgba(15, 10, 10, 0.949),
+      rgba(0, 0, 0, 0.285),
+      rgba(15, 10, 10, 0.862)
+    ),
+    url("../../images/fakeflix-hero.jpg");
+
+  height: fit-content;
+}
+
+.MainSection_right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  /* gap: 132px; */
+  width: 1000px;
+}

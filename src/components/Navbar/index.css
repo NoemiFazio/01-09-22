@@ -1,0 +1,22 @@
+.Navbar {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  background-color: rgb(22 22 22);
+  /* color: red; */
+  z-index: index 9;
+  /* border: 2px solid red; */
+}
+
+.Navbar ul {
+  padding: 0;
+  list-style-type: none;
+}
+
+.Navbar ul li a {
+  color: white;
+  font-weight: 800;
+  text-decoration: none;
+}

@@ -1,0 +1,8 @@
+* {
+  font-family: "Mukta", sans-serif;
+}
+
+html,
+body {
+  scroll-behavior: smooth;
+}
